@@ -1,0 +1,67 @@
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+.controles {
+  width: 500px;
+  height: 500px;
+  border: 3px solid black;
+}
+
+.controles label {
+  font-size: 35px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+  margin-top: 50px;
+}
+
+.controles .input {
+  width: 250px;
+  height: 30px;
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+.controles .btn-comenzar {
+  width: 150px;
+  height: 100px;
+  margin-left: 32%;
+  margin-top: 67px;
+  font-size: 20px;
+}
+
+.divConteiner {
+  width: 500px;
+  height: 500px;
+  border: 3px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.divConteiner .botones {
+  width: 140px;
+  height: 153px;
+  margin-left: 13px;
+  margin-top: 7px;
+  margin-right: 13px;
+}
+
+.botones {
+  color: #77D;
+  background-color: #77D;
+}
+/*# sourceMappingURL=styles.css.map */
